@@ -72,6 +72,12 @@
     display: flex;
     justify-content: end;
     transition: 0.1s;
+    color: transparent;
+}
+
+.pianorow:hover {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.926);
+    color: #000000;
 }
 
 .keywhite {
@@ -80,15 +86,12 @@
     margin-right: 5%;
 }
 
+
 .blk {
-    color: #D5CBCB;
     position: relative;
     bottom: 0.5em;
 }
 
-.pianorow:hover {
-    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.926);
-}
 
 .blkrow {
     width: 5rem;
@@ -98,12 +101,15 @@
     display: flex;
     justify-content: center;
     transition: 0.1s;
+    color: transparent;
 }
 
 
 
 .blkrow:hover {
-    box-shadow: 0 0 5px 2px rgb(82, 82, 82);
+    box-shadow: inset 0 0 5px 2px rgb(82, 82, 82);
+    color: #D5CBCB;
+
 }
 
 
